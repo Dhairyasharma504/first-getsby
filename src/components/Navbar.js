@@ -1,42 +1,26 @@
 import React from "react"
 import Styled from "styled-components"
 const Wrapper=Styled.div`
-
-
 .image{
-  background-image: linear-gradient(to bottom,rgba(226,249,248,0.47),rgb(0, 0, 0)),url(https://colorlib.com/preview/theme/sogo/images/hero_4.jpg);
-    background-position: 0% 32px;
-    height: 72rem;
+  background-image: linear-gradient(to bottom,rgba(226,249,248,0.47),rgba(29, 29, 27, 0.64)),url(https://colorlib.com/preview/theme/sogo/images/hero_4.jpg);
     margin-top: -27rem;
-    margin-left: -18rem;
-    position: sticky;
-    
-
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 73rem;
 }
 .navbar{background: transparent;
   font-family: serif;
   font-weight: bolder;
-  
-
-
 }
 .hero-body{
-  padding-top: 45rem;
-  padding-left: 10rem;
+  padding-top: 44rem;
 }
 .title{
   padding-top: 2rem;
-  padding-left: 5rem;
-  font-size: 5rem;
-    font-family: serif;
-    font-weight: bolder;
+    font-size: 4rem;
 }
-.subtitle{
 
-  padding-left: 5rem;
-  font-family: serif;
-  font-weight: bolder;
-}
 `
 
 const Navbar =()=>(
@@ -86,18 +70,17 @@ const Navbar =()=>(
   <div className="hero-body">
     <div className="container has-text-centered">
       
-      <p className="subtitle has-text-white">
+      <p className="subtitle has-text-white has-text-centered has-text-weight-bold is-family-sans-serif">
       WELCOME TO 5  HOTEL
       </p>
-      <p className="title is-1 has-text-white">
+      <p className="title is-1 has-text-white has-text-centered column-is-7 is-offset-2 has-text-weight-semibold is-family-sans-serif">
       A Best Place To Stay
       </p>
     </div>
-  </div>
-
- 
-</section>
+  </div> 
   
+</section>
+
 </Wrapper>
 );
 export default Navbar;
