@@ -9,6 +9,7 @@ const Wrapper=Styled.div`
     right: 0;
     z-index: 0;
     margin-left: 1rem;
+    text-shadow: 0px 3px 3px black;
   }
   img {
           height: 14rem;
