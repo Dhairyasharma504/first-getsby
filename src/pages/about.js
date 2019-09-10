@@ -7,6 +7,7 @@ const about = () => (
   <div>
     <Navbar />
     <Welcome />
+
     <Banner />
     <Heroone />
   </div>
