@@ -2,9 +2,6 @@ import React from "react"
 import Styled from "styled-components"
 import Heading from "./Tpheading"
 const Wrapper = Styled.div`
-.section{
-    -webkit-text-emphasis: triangle;
-}
 `
 const Trecent = () => (
   <Wrapper>

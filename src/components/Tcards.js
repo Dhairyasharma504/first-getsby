@@ -14,7 +14,7 @@ export default class PauseOnHover extends Component {
       pauseOnHover: true,
     }
     return (
-      <div>
+      <div className="main is-hidden-touch">
         <Slider {...settings}>
           <div>
             <section className="section">
